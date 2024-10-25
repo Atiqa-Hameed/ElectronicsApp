@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "../Header";
 import BenefitsSection from '../BenefitsSection';
+import Footer from '../Footer';
 
 const About = () => {
   return (
@@ -38,6 +39,7 @@ const About = () => {
         </div>
       </div>
       <BenefitsSection />
+      <Footer />
     </div>
   );
 }
