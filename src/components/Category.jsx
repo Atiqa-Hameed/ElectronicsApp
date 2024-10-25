@@ -13,11 +13,11 @@ const Category = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 justify-items-center">
         {/* Individual Product Card */}
         {[
-          { name: "Iphone", image: "/src/assets/grayiphone.png",},
-          { name: "Speaker", image: "/src/assets/speaker.png" },
-          { name: "Tablet", image: "/src/assets/tablet.png" },
-          { name: "Laptop", image: "/src/assets/laptop.png" },
-          { name: "Headphone", image: "/src/assets/headphone.png" },
+          { name: "Iphone", image: "/grayiphone.png",},
+          { name: "Speaker", image: "/speaker.png" },
+          { name: "Tablet", image: "/tablet.png" },
+          { name: "Laptop", image: "/laptop.png" },
+          { name: "Headphone", image: "/headphone.png" },
         ].map((product, index) => (
           <div
             key={index}
@@ -40,7 +40,7 @@ const Category = () => {
           {/* Camera Promotion */}
           <div className="bg-white shadow-xl rounded-lg flex items-center justify-center h-60 sm:h-72 lg:h-96">
             <img
-              src="/src/assets/Realistic-digital-camera-vector-PNG-removebg-preview.png"
+              src="/Realistic-digital-camera-vector-PNG-removebg-preview.png"
               alt="Camera"
               className="h-36 sm:h-36 lg:h-[250px] w-auto -rotate-[60deg]"
             />
@@ -59,7 +59,7 @@ const Category = () => {
           {/* Tablet/Smartphone Promotion */}
           <div className="bg-white p-2  shadow-lg rounded-lg flex items-center justify-center h-60 sm:h-72 lg:h-96">
             <img
-              src="/src/assets/tablets.png"
+              src="/tablets.png"
               alt="Tablet"
               className="h-36 sm:h-36 lg:h-[350px] w-auto"
             />

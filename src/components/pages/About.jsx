@@ -31,7 +31,7 @@ const About = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-20">
           <img
-            src="/src/assets/elec.png"  // Replace with actual image path
+            src="/elec.png"  // Replace with actual image path
             alt="Electronics with bow"
             className="sm:h-[350px] sm:w-[350px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px] object-cover"
           />

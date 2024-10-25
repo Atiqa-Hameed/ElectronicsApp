@@ -73,14 +73,14 @@ const BenefitsSection = () => {
           {/* Left side image */}
           <div className="relative mb-6 lg:mb-0 lg:w-1/3 lg:ml-20">
             <img
-              src="/src/assets/girlwithphone.png"
+              src="/girlwithphone.png"
               alt="Person using mobile"
               className="object-cover w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]"
             />
             {/* Overlayed circle with icons */}
             <div className="absolute bottom-0 right-[80px] lg:right-[120px] transform translate-x-1/2 translate-y-1/2 bg-white rounded-full p-3 lg:p-4 shadow-lg">
               <img
-                src="/src/assets/icon.png"
+                src="/icon.png"
                 alt="Icons overlay"
                 className="w-12 h-12 lg:w-16 lg:h-16 object-cover"
               />
@@ -131,12 +131,12 @@ const BenefitsSection = () => {
           {/* Right side double image */}
           <div className="relative lg:w-1/4 lg:mr-52 lg:min-h-[310px] mt-8 lg:mt-0">
             <img
-              src="/src/assets/img.png"
+              src="/img.png"
               alt="Product Image 1"
               className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] object-cover absolute top-0 left-10 lg:left-20 z-10"
             />
             <img
-              src="/src/assets/airpods.png"
+              src="/airpods.png"
               alt="Product Image 2"
               className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] object-cover absolute top-16 lg:top-20 left-36 lg:left-56 z-20"
             />
@@ -155,7 +155,7 @@ const BenefitsSection = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 relative">
           {/* Left Image */}
           <img
-            src="/src/assets/boy.png" // Replace with the actual path of the left side image
+            src="/boy.png" // Replace with the actual path of the left side image
             alt="Left Testimonial"
             className="w-14 h-14 rounded-full mb-4 object-cover absolute top-0 left-1/2 transform -translate-x-[100px] sm:-translate-x-[100px] md:-translate-x-[100px] lg:-translate-x-[100px]"
           />
@@ -163,7 +163,7 @@ const BenefitsSection = () => {
           {/* Main Testimonial */}
           <div className="text-center flex flex-col items-center max-w-xs mx-auto">
             <img
-              src="/src/assets/man.png" // Replace with the actual path of the main user's image
+              src="/man.png" // Replace with the actual path of the main user's image
               alt="Monica Smith"
               className="w-16 h-16 rounded-full mb-4 object-cover border-4 border-blue-600" // Added border classes
             />
@@ -178,7 +178,7 @@ const BenefitsSection = () => {
 
           {/* Right Image */}
           <img
-            src="/src/assets/girl.png" // Replace with the actual path of the right side image
+            src="/girl.png" // Replace with the actual path of the right side image
             alt="Right Testimonial"
             className="w-14 h-14 rounded-full mb-4 object-cover absolute top-0 right-1/2 transform translate-x-[100px] sm:translate-x-[100px] md:translate-x-[100px] lg:translate-x-[100px]"
           />

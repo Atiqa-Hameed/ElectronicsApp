@@ -10,7 +10,7 @@ const products = [
     description: "Headphones come with a variety of features.",
     price: "$49",
     rating: 5.0,
-    image: "/src/assets/blueiphone.png",
+    image: "/blueiphone.png",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const products = [
     description: "Headphones come with a variety of features.",
     price: "$55",
     rating: 4.8,
-    image: "/src/assets/grayiphone.png",
+    image: "/grayiphone.png",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const products = [
     description: "Headphones come with a variety of features.",
     price: "$39",
     rating: 4.3,
-    image: "/src/assets/display.png",
+    image: "/display.png",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const products = [
     description: "Headphones come with a variety of features.",
     price: "$69",
     rating: 4.9,
-    image: "/src/assets/skyiphone.png",
+    image: "/skyiphone.png",
   },
 ];
 
@@ -89,7 +89,7 @@ const NewArrival = () => {
           {/* Left Div: Image aligned to the left */}
           <div className="bg-gray rounded-3xl p-6 flex flex-col justify-center items-center md:items-start h-auto md:h-96 lg:h-[20rem] relative overflow-hidden">
             <img
-              src="/src/assets/left.png"
+              src="/left.png"
               alt="Awesome Airpods"
               className="w-40 h-40 md:w-64 md:h-64 lg:w-64 lg:h-64 object-contain md:absolute lg:right-56 md:right-32"
             />
@@ -109,7 +109,7 @@ const NewArrival = () => {
           {/* Right Div: Image aligned to the right */}
           <div className="bg-gray rounded-3xl p-6 flex flex-col justify-center items-center md:items-start h-auto md:h-96 lg:h-[20rem] relative overflow-hidden">
             <img
-              src="/src/assets/watch.png"
+              src="/watch.png"
               alt="Smart Watches"
               className="w-40 h-40 md:w-64 md:h-64 lg:w-80 lg:h-80 object-contain md:absolute md:right-2"
             />
@@ -145,49 +145,49 @@ const NewArrival = () => {
           </h2>
 
           <div className="mt-8 grid grid-cols-2 gap-4 max-w-full sm:max-w-sm ml-2 sm:ml-4">
-          <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
-            <p className="text-red text-3xl sm:text-4xl font-bold">4M+</p>
-            <p className="text-lg sm:text-2xl text-gray-600 font-medium">User's</p>
+            <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
+              <p className="text-red text-3xl sm:text-4xl font-bold">4M+</p>
+              <p className="text-lg sm:text-2xl text-gray-600 font-medium">
+                User's
+              </p>
+            </div>
+            <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
+              <p className="text-red text-3xl sm:text-4xl font-bold">153k</p>
+              <p className="text-lg sm:text-2xl text-gray-600 font-medium">
+                Purchaser
+              </p>
+            </div>
+            <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
+              <p className="text-red text-3xl sm:text-4xl font-bold">53k</p>
+              <p className="text-lg sm:text-2xl text-gray-600 font-medium">
+                Gallery
+              </p>
+            </div>
+            <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
+              <p className="text-red text-3xl sm:text-4xl font-bold">2M+</p>
+              <p className="text-lg sm:text-2xl text-gray-600 font-medium">
+                Feedback
+              </p>
+            </div>
           </div>
-          <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
-            <p className="text-red text-3xl sm:text-4xl font-bold">153k</p>
-            <p className="text-lg sm:text-2xl text-gray-600 font-medium">Purchaser</p>
-          </div>
-          <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
-            <p className="text-red text-3xl sm:text-4xl font-bold">53k</p>
-            <p className="text-lg sm:text-2xl text-gray-600 font-medium">Gallery</p>
-          </div>
-          <div className="bg-gray p-4 sm:p-6 rounded-xl text-center h-35 w-full flex flex-col items-center justify-center">
-            <p className="text-red text-3xl sm:text-4xl font-bold">2M+</p>
-            <p className="text-lg sm:text-2xl text-gray-600 font-medium">Feedback</p>
-          </div>
-        </div>
-        
         </div>
 
         {/* Right section: Image */}
-      <div className="relative">
+        <div className="relative">
           <div className="absolute  -top-12 -right-20 sm:-right-36 h-48 sm:h-64 w-[90%] sm:w-[78%] bg-red rounded-l-full rotate-[-18deg]">
-
-          <img
-            src="/src/assets/manwithheadphones.png"
-            alt="Man with headphones"
-            className="relative w-full h-[340px] sm:h-[440px] -top-24 sm:-top-36 object-top object-cover"
-
-          />
+            <img
+              src="/manwithheadphones.png"
+              alt="Man with headphones"
+              className="relative w-full h-[340px] sm:h-[440px] -top-24 sm:-top-36 object-top object-cover"
+            />
+          </div>
         </div>
-      </div>
-      
-      
-        
       </div>
     </div>
   );
 };
 
 export default NewArrival;
-
-
 
 // import React from "react";
 // import { FaArrowRight } from "react-icons/fa";
@@ -353,7 +353,7 @@ export default NewArrival;
 //             <p className="text-lg sm:text-2xl text-gray-600 font-medium">Feedback</p>
 //           </div>
 //         </div>
-        
+
 //         </div>
 
 //         {/* Right section: Image */}
@@ -368,9 +368,7 @@ export default NewArrival;
 //           />
 //         </div>
 //       </div>
-      
-      
-        
+
 //       </div>
 //     </div>
 //   );

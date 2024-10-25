@@ -8,42 +8,42 @@ const TopRatedProducts = () => {
       id: 1,
       name: "LED 4k smart TV expo White/Gray/Black",
       price: "$499",
-      image: "/src/assets/smart-led.png",
+      image: "/smart-led.png",
       rating: "Top rated",
     },
     {
       id: 2,
       name: "GM-2345 closed back wireless Headphones",
       price: "$99",
-      image: "/src/assets/wireless-headphones.png",
+      image: "/wireless-headphones.png",
       rating: "Top rated",
     },
     {
       id: 3,
       name: "GM-2345 closed back wireless Headphones",
       price: "$99",
-      image: "/src/assets/headphones.png",
+      image: "/headphones.png",
       rating: "Top rated",
     },
     {
       id: 4,
       name: "Laptop 4k smart TV expo White/Gray/Black",
       price: "$599",
-      image: "/src/assets/Laptop.png",
+      image: "/Laptop.png",
       rating: "Top rated",
     },
     {
       id: 5,
       name: "Mobile phone accessories",
       price: "$199",
-      image: "/src/assets/images-removebg-preview.png",
+      image: "/images-removebg-preview.png",
       rating: "Top rated",
     },
     {
       id: 6,
       name: "Accessories for mobile phone used USB",
       price: "$149",
-      image: "/src/assets/images__1_-removebg-preview.png",
+      image: "/images__1_-removebg-preview.png",
       rating: "Top rated",
     },
     {
@@ -51,14 +51,14 @@ const TopRatedProducts = () => {
       name: "GM-2345 closed back Camera",
       price: "$299",
       image:
-        "/src/assets/Realistic-digital-camera-vector-PNG-removebg-preview.png",
+        "/Realistic-digital-camera-vector-PNG-removebg-preview.png",
       rating: "Top rated",
     },
     {
       id: 8,
       name: "Mobile 4k smart TV expo White/Gray/Black",
       price: "$399",
-      image: "/src/assets/tablets.png",
+      image: "/tablets.png",
       rating: "Top rated",
     },
   ];
@@ -112,7 +112,7 @@ const TopRatedProducts = () => {
         {/* Left side: Image */}
         <div className="w-full md:w-1/2 flex justify-center relative">
           <img
-            src="/src/assets/Iphones.png"
+            src="/Iphones.png"
             alt="Description"
             className="h-auto md:h-[450px] object-contain md:absolute md:bottom-[-250px]"
           />

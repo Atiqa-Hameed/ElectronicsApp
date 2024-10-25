@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="relative w-full lg:w-[72%] md:w-[110%] bg-gray h-[600px] rounded-r-[150px] overflow-hidden flex items-center justify-center">
           {/* Picture Overlay */}
           <img
-            src="/src/assets/file.png"
+            src="/file.png"
             alt="Hero Section Image"
             className="w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] xl:w-[550px] xl:h-[550px] rotate-[35deg] ml-4 sm:ml-6 md:ml-8 lg:ml-12 object-contain"
           />

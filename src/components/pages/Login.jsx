@@ -8,7 +8,7 @@ const Login = () => {
     <div className="min-h-screen flex flex-col justify-center items-center relative">
       {/* Background Image */}
       <img
-        src="/src/assets/cir.jpg"  // Replace with your actual image path
+        src="/cir.jpg"  // Replace with your actual image path
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover rounded-2xl"  // Ensures the image covers the whole div
       />
@@ -83,7 +83,7 @@ const Login = () => {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
             <img
-              src="/src/assets/elec.png"  // Replace with actual image path
+              src="/elec.png"  // Replace with actual image path
               alt="Electronics with bow"
               className="h-[200px] w-[200px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px] object-cover"
             />

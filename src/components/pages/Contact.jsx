@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="min-h-screen flex flex-col justify-center items-center relative">
       {/* Background Image */}
       <img
-        src="/src/assets/cir.jpg" // Replace with your actual image path
+        src="/cir.jpg" // Replace with your actual image path
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover rounded-2xl" // Ensures the image covers the whole div
       />

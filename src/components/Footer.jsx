@@ -92,7 +92,7 @@ const Footer = () => {
         <hr className="h-px mt-20 bg-white border-0" />
         <div className="flex flex-col md:flex-row justify-between items-center px-8 mt-6">
           <img 
-            src="/src/assets/logo.svg" 
+            src="/logo.svg" 
             alt="Techor Logo" 
             className="h-12 w-48 mb-4 md:mb-0"  
           />

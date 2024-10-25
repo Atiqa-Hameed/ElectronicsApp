@@ -29,7 +29,7 @@ const Features = () => {
   
             {/* Image Overlay */}
             <img
-            src="/src/assets/Blue.png" // Ensure image path is correct
+            src="/Blue.png" // Ensure image path is correct
             alt="Headphones"
             className="absolute left-28 top-0 h-full object-cover rotate-[32deg] w-1/2 sm:w-[50%] md:w-[45%] lg:w-[40%] xl:w-[35%] object-center"
 
